@@ -44,13 +44,11 @@ button{
     height: 95px;
     width: 96px;
     border-radius: 15px;
-    transition: all 0.2 ease;
+    
 
 }
 
-button:active{
-    transform:scale(0)
-}
+
 
 .helo{
     padding: 10px;
@@ -74,3 +72,6 @@ button:active{
     align-items: center;
 }
 
+h1{
+    color: white;
+}
