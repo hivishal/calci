@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Backend",
+			"path": "../Backend"
+		},
+		{
+			"name": "Trulylearningfrontend",
+			"path": "../Trulylearningfrontend"
+		},
+		{
+			"name": "calculator",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
