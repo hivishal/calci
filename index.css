@@ -1,0 +1,87 @@
+body{
+    background-color:  greenyellow;
+    font-family: 'Caveat', cursive;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.cover{
+    margin: 50px;
+    border: solid white 5px;
+    padding:10px;
+    width: 530px;
+    height: 620px;
+    background-color:  white;
+    border-radius: 3%;
+
+}
+
+.Display{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 530px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.buttons{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 105px 105px 105px 100px 87px ;
+    grid-template-rows: 100px 100px 100px 100px ;
+}
+
+button{
+
+    font-size: 30px;
+    color: white;
+    border: transparent;
+    background-color: #2D2727;
+    height: 95px;
+    width: 96px;
+    border-radius: 15px;
+    
+
+}
+
+
+
+.helo{
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: white;
+    background-color:  blue;
+    grid-column: 4/6;
+    width: 200px;
+    
+}
+
+.greenbutton{
+    color: white;
+    background-color:  blue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    padding: 10px;
+    font-size: 20px ; 
+    color: grey;
+}
+
+.displaycontents{
+    padding: 10px ; 
+    width: 510px ;
+}
+
