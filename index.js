@@ -14,6 +14,15 @@ function hello(b){
         b = "" ;
         return b ;
     }
+    else if(b[0]=== "+" || b[0]=== "-" || b[0]=== "*" || b[0]=== "/" || b[0]=== "%" || b[0]=== "=" || b[0]=== "."  ){
+        b = "UNDEFINED INPUT PRESS AC" ;
+        return b ;
+    }
+    else if(b[b.length-1] === "%"){
+       b = b.slice(0,b.length - 1) + "*0.01" ;
+       return b ; 
+
+    }
     else if(b[b.length-1]==="L"){
         b = b.slice(0,b.length-4) ;
         return b ;
