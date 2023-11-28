@@ -46,7 +46,7 @@ button{
     height: 95px;
     width: 96px;
     border-radius: 15px;
-    
+    transition: transform 0.3s;
 
 }
 
@@ -85,3 +85,6 @@ h1{
     width: 510px ;
 }
 
+button:hover{
+    transform : translateY(-10px);
+}
